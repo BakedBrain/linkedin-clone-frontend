@@ -8,7 +8,7 @@ function Feed() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://linkedin-clone-backend-u6rr.onrender.com';
 
   useEffect(() => {
     fetchPosts();

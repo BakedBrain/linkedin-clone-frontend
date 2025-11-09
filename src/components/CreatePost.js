@@ -10,7 +10,7 @@ function CreatePost({ onPostCreated }) {
   const [error, setError] = useState('');
   const { user } = useAuth();
 
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://linkedin-clone-backend-u6rr.onrender.com';
 
   const handleSubmit = async (e) => {
     e.preventDefault();

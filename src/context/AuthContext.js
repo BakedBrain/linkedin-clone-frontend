@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://linkedin-clone-backend-u6rr.onrender.com';
 
   useEffect(() => {
     const token = localStorage.getItem('token');
